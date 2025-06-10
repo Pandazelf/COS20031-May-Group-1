@@ -1,0 +1,20 @@
+{
+  "name": "cos20031-may-group-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pandazelf/COS20031-May-Group-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pandazelf/COS20031-May-Group-1/issues"
+  },
+  "homepage": "https://github.com/Pandazelf/COS20031-May-Group-1#readme"
+}
