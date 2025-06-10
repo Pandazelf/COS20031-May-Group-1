@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Social Media Platform</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/styles.css" >
+  </head>
+  <body>
     <div id="app">
-        <nav class="navbar">
-            <div class="nav-container">
-                <h1 class="logo">SocialApp</h1>
-                <div class="nav-links">
-                    <a href="#" id="home-link">Home</a>
-                    <a href="#" id="profile-link">Profile</a>
-                    <button id="logout-btn">Logout</button>
-                </div>
-            </div>
-        </nav>
+      <nav class="navbar">
+        <div class="nav-container">
+          <h1 class="logo">SocialApp</h1>
+          <div class="nav-links">
+            <a href="#" id="home-link">Home</a>
+            <a href="#" id="profile-link">Profile</a>
+            <button type="button" id="logout-btn">Logout</button>
+          </div>
+        </div>
+      </nav>
 
-        <main class="main-content">
-            <div class="container">
-                <div class="post-form">
-                    <textarea id="post-content" placeholder="What's on your mind?"></textarea>
-                    <button id="post-btn">Post</button>
-                </div>
-                
-                <div id="posts-container" class="posts-container">
-                    <!-- Posts will be loaded here -->
-                </div>
-            </div>
-        </main>
+      <main class="main-content">
+        <div class="container">
+          <div class="post-form">
+            <textarea
+              id="post-content"
+              placeholder="What's on your mind?"></textarea>
+            <button type="button" id="post-btn">Post</button>
+          </div>
+
+          <div id="posts-container" class="posts-container">
+            <!-- Posts will be loaded here -->
+          </div>
+        </div>
+      </main>
     </div>
 
     <script src="assets/js/main.js"></script>
     <script src="assets/js/auth.js"></script>
     <script src="assets/js/posts.js"></script>
-</body>
+  </body>
 </html>
